@@ -27,9 +27,13 @@
             background-color: #111;
         }
 
- /* Media query - applies only on small screens (1000px wide or less */
-            @media screen and (max-width: 1000px) {
-                 ul {
+ /* Media query - applies only on small screens (600px wide or less */
+            @media screen and (max-width: 600px) {
+                 
+                body {
+                    background-color: lightblue;
+                }
+                ul {
                     flex-direction: column; /*menu becomes vertical*/
                 }
 
@@ -54,10 +58,10 @@
             margin: 0;
             padding-top: 0;
             
-            background-image: url(heads.jpeg);
+            /*background-image: url(heads.jpeg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-attachment: fixed; */
         }
 
             
