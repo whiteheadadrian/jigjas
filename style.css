@@ -31,9 +31,9 @@
             @media screen and (max-width: 600px) {
                  
                 body {
-                    background-color: lightblue;
-                    font-size: 30px;
-                    color:black;
+                    background-color:black;
+                    font-size: 100px;
+                    
                 }
                 ul {
                     flex-direction: column; /*menu becomes vertical*/
