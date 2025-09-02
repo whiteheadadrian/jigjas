@@ -32,6 +32,7 @@
                  
                 body {
                     background-color: lightblue;
+                    font-size: 20px;
                 }
                 ul {
                     flex-direction: column; /*menu becomes vertical*/
