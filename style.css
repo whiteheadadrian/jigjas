@@ -27,8 +27,8 @@
             background-color: #111;
         }
 
- /* Media query - applies only on small screens (600px wide or less */
-            @media screen and (max-width: 600px) {
+ /* Media query - applies only on small screens (1000px wide or less */
+            @media screen and (max-width: 1000px) {
                  ul {
                     flex-direction: column; /*menu becomes vertical*/
                 }
