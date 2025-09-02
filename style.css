@@ -1,5 +1,5 @@
         ul {
-            display: flex;
+            display: flex; /* menu is horizontal */
             flex-wrap: wrap;
             list-style-type: none;
             margin: 0;
@@ -10,7 +10,7 @@
 
         li{
           float:left; 
-
+        flex: 1; /* equal width links*/
         }
 
 
@@ -27,16 +27,30 @@
             background-color: #111;
         }
 
+ /* Media query - applies only on small screens (600px wide or less */
+            @media screen and (max-width: 600px) {
+                 ul {
+                    flex-direction: column; /*menu becomes vertical*/
+                }
+
+                li {
+                    flex: none; /*don't stretch full width*/
+                }  
+                li a{
+                    text text-align: left: ;
+                    padding: 12px;
+                }
+
+            }
+                
+
+
         body {
             background-color: lightgray;
             font size: 16px;
             font-family:Arial, Helvetica, sans-serif;
             color: white;
 
-            @media screen and (max-width: 600px) {
-                
-            }
-            
             margin: 0;
             padding-top: 0;
             
@@ -73,4 +87,4 @@
         }
             
     
-        )
+        
